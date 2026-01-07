@@ -36,10 +36,13 @@ export default function Home() {
 
       <div className="grid gap-4 md:grid-cols-3">
         {[
-          { title: "Full-Stack", desc: "React, Node, MongoDB, APIs" },
-          { title: "Python", desc: "Automation, ML, FastAPI" },
-          { title: "ECE", desc: "Systems, signals, hardware curiosity" },
-        ].map((c) => (
+  { title: "Full-Stack", desc: "React, Vite, REST APIs, auth, scalable UI flows" },
+  { title: "Backend & Python", desc: "FastAPI, automation, data processing, APIs" },
+  { title: "Machine Learning", desc: "TensorFlow/Keras, MediaPipe, real-time inference" },
+  { title: "Embedded & Hardware", desc: "Sensor integration, control logic, firmware debugging" },
+  { title: "Systems Thinking", desc: "Real-time constraints, reliability, edge-case handling" },
+]
+.map((c) => (
           <div
             key={c.title}
             className="rounded-3xl border border-zinc-800 bg-zinc-900/20 p-6"
