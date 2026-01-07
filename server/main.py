@@ -4,16 +4,18 @@ from pydantic import BaseModel,EmailStr
 
 app = FastAPI()
 
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins = ["my-portfolio-nine-chi-cm2sfdh0gx.vercel.app",
+    allow_origins=[
+        "https://my-portfolio-nine-chi-cm2sfdh0gx.vercel.app",
         "http://localhost:5173",
-        "http://localhost:5174"],
-        
-        allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
-    )
+        "http://localhost:5174",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class ContactIn(BaseModel):
     name:str
