@@ -12,10 +12,12 @@ app.add_middleware(
         "http://localhost:5173",
         "http://localhost:5174",
     ],
+    allow_origin_regex=r"^https://.*\.vercel\.app$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 class ContactIn(BaseModel):
     name:str
