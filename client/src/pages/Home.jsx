@@ -36,6 +36,7 @@ export default function Home() {
 
       <div className="grid gap-4 md:grid-cols-3">
         {[
+  { title: "TA for Intro to Programming", desc: "Project Designing for students, Conducting office hours, Teaching foundational python concepts to students" },        
   { title: "Full-Stack", desc: "React, Vite, REST APIs, auth, scalable UI flows" },
   { title: "Backend & Python", desc: "FastAPI, automation, data processing, APIs" },
   { title: "Machine Learning", desc: "TensorFlow/Keras, MediaPipe, real-time inference" },

@@ -68,6 +68,23 @@ const projects = [
     period: "Nov 2025 - Dec 2025",
     link: "https://github.com/AdarshAlex751/crimsonmind",
   },
+  {
+  name: "Tuya AI Avatar System",
+  tagline: "Personalized AI avatar system using Tuya IoT boards and vision-language models.",
+  description:
+    "Built a personalized AI avatar system using Tuya IoT boards equipped with a camera, LCD display, and Wi-Fi modules. Developed firmware to capture facial gestures, process them using vision-language models (VLM), and render corresponding avatars in real time on an embedded LCD screen. Focused on embedded systems integration, AI-driven gesture understanding, and reliable device-level communication.",
+  stack: [
+    "Python",
+    "Tuya IoT",
+    "Embedded Systems",
+    "Computer Vision",
+    "VLM (Vision-Language Models)",
+    "Firmware Development",
+    "Wi-Fi & Device Communication"
+  ],
+  type: "Tuya AI Hackathon Project",
+  period: "Jan 2026",
+  link: "https://github.com/AdarshAlex751/AIoTHackStorm" }
 
 ];
 
