@@ -84,7 +84,25 @@ const projects = [
   ],
   type: "Tuya AI Hackathon Project",
   period: "Jan 2026",
-  link: "https://github.com/AdarshAlex751/AIoTHackStorm" }
+  link: "https://github.com/AdarshAlex751/AIoTHackStorm" },
+{
+  name: "LeRobot Robotics",
+  tagline: "Autonomous robotic system for book retrieval and librarian task automation.",
+  description:
+    "Developing an autonomous robotic system (S0101) designed to mimic librarian tasks by identifying and retrieving books from shelves based on titles. Focused on motion control refinement, vision-based book recognition, and episodic learning to improve accuracy and smoothness of retrieval.",
+  stack: [
+    "Robotics",
+    "Python",
+    "Computer Vision",
+    "Motion Control",
+    "Embedded Systems",
+    "AI/ML"
+  ],
+  type: "Robotics Project",
+  period: "Jan 2026 - Present",
+  link: "https://drive.google.com/file/d/1kqZm1mksc6ZCj7g3_fcZqymlCA17zWvA/view?usp=sharing"
+}
+  
 
 ];
 
